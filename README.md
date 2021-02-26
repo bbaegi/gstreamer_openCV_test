@@ -5,7 +5,7 @@
 
 ### 1.1. Delete default OpenCV in Ubuntu 18.04
 
-```console
+```
 sudo apt-get remove libopencv*
 sudo apt-get autoremove
 sudo find /usr/local/ -name "*opencv*" -exec rm {} \;
@@ -14,7 +14,7 @@ sudo find /usr/local/ -name "*opencv*" -exec rm {} \;
 ### 1.2. Install Prerequisites
 
 #### Update & Upgrade
-```console
+```
 sudo apt-get update
 sudo apt-get upgrade
 ```

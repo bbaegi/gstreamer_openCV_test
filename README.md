@@ -152,3 +152,17 @@ python
 ```python
 import cv2
 ```
+## 2. Usage
+### 2.1. Compile
+
+```
+git clone https://github.com/bbaegi/gstreamer_openCV_test
+cd ~/gstreamer_openCV_test
+g++ gst_opencv_test.cpp -o gst_opencv_test `pkg-config --cflags --libs opencv`
+```
+
+### 2.2. Test
+
+```
+./gst_opencv_test
+```

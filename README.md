@@ -1,8 +1,11 @@
 # gstreamer_openCV_test
+* PC : Jetson AGX Xavier Developer Kit
 * OS : Ubuntu 18.04
+* Camera : e-con Systems e-CAM130_CUXVR_Quad
+
 
 ## 1. installation
-
+* You should have to flash Ubuntu 18.04 with e-CAM130_CUXVR driver. (provided by e-con Systems)
 ### 1.1. Delete default OpenCV in Ubuntu 18.04
 
 ```

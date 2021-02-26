@@ -5,7 +5,7 @@
 
 
 ## 1. installation
-* You should have to flash Ubuntu 18.04 with e-CAM130_CUXVR driver. (provided by e-con Systems)
+* Before doing the work below, you should have to flash Ubuntu 18.04 with e-CAM130_CUXVR driver. (provided by e-con Systems)
 ### 1.1. Delete default OpenCV in Ubuntu 18.04
 
 ```
@@ -143,4 +143,12 @@ sudo sh -c echo '/usr/local/lib/' > sudo /etc/ld.so.conf.d/opencv.conf
 sudo ldconfig
 ```
 
-### Check
+#### Check
+
+```
+python
+```
+
+```python
+import cv2
+```

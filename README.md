@@ -141,6 +141,44 @@ lscpu
 make -j8
 ```
 
+#### If error occured (recipe for target 'all failed make: Error2
+* 1. Download protobuf install file at https://developers.google.com/protocol-buffers/
+* 
+* 2. Extract Archive
+
+```
+tar -xf protobuf-all-0.0.0.tar.gz
+cd protobuf-all-0.0.0
+```
+
+* 3. Build
+
+```
+sudo ./configure
+sudo make
+sudo make check
+sudo make install
+```
+
+* 4. Cache
+
+```
+sudo ldconfig
+```
+
+* Check installation finished
+
+```
+protoc --version
+```
+
+* Delete temporary files
+
+```
+cd ..
+sudo rm -rf protobuf-*
+```
+
 #### Install OpenCV
 
 ```

@@ -141,17 +141,17 @@ lscpu
 make -j8
 ```
 
-#### If error occured (recipe for target 'all failed make: Error2
-* 1. Download protobuf install file at https://developers.google.com/protocol-buffers/
-* 
-* 2. Extract Archive
+#### If error occured (recipe for target 'all failed make: Error2)
+* Download protobuf install file at https://developers.google.com/protocol-buffers/
+
+* Extract Archive
 
 ```
 tar -xf protobuf-all-0.0.0.tar.gz
 cd protobuf-all-0.0.0
 ```
 
-* 3. Build
+* Build
 
 ```
 sudo ./configure
@@ -160,7 +160,7 @@ sudo make check
 sudo make install
 ```
 
-* 4. Cache
+* Cache
 
 ```
 sudo ldconfig

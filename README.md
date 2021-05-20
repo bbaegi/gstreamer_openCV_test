@@ -130,11 +130,17 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 
 #### Compile
 * Check CPU core
+
+```
+lscpu
+```
+
 * Put number of your CPU core after -j
 
 ```
 make -j8
 ```
+
 #### Install OpenCV
 
 ```
